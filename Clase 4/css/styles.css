@@ -1,0 +1,46 @@
+
+
+*{
+    margin: 10; /*margenes*/
+    padding: 0; /*espacio entre letras*/
+}
+
+
+h1{
+    color: red;
+    text-align: center;
+}
+
+h2{
+    color: green;
+}
+p{
+    color:#0000ff;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/*Por id*/
+
+#etqAmarillo{
+    color: yellow;
+}
+
+/*Crear Clase*/
+.txtBlue{
+    color: blue;
+}
+
+/*para modificar el tamaño de 
+un parrafo especicifo
+le creamos un id al parrafo y 
+lo recreamos aca
+*/
+#parrafito{
+    font-size: larger;
+}
+
+/*cambio de color de fondo*/
+body{
+    background-color:darkorange;
+}
