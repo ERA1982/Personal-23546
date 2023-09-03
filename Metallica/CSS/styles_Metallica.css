@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+   
+
+}
+
+*{
+margin: 10;
+padding: 10;
+
+}
+
+
+
+h1{
+    color: whitesmoke;
+    margin: 10px;
+
+}
+
+div{
+    background-color: antiquewhite;
+    width:"560"; height:"315";
+    border-color: gray;
+    border-width: 10px;
+    border-style: groove;
+    border-radius: 25px;
+    flex-direction:row;
+    
+
+}
+#video_1{
+    background-color: blue;
+    width:"560"; height:"315";
+    flex-direction:row;
+
+    
+}
+#video_2{
+    background-color:brown;
+    width:"560"; height:"315";
+}
+#video_3{
+    background-color: blueviolet;
+
+    width:"560"; height:"315";
+}
+#video_4{
+    background-color: blue;
+    width:"560"; height:"315";
+}
+#video_5{
+    background-color: rgb(255, 217, 0);
+    width:"560"; height:"315";
+}
+#video_6{
+    background-color: rgb(225, 0, 255);
+    width:"560"; height:"315";
+}
+#video_7{
+    background-color: rgb(225, 0, 255);
+    width:"560"; height:"315";
+}
