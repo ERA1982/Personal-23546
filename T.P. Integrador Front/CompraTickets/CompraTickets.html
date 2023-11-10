@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conf Bs As</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/styles_TP_integrador.CSS">
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg .navbar-light bg-secondary position-fixed" style="z-index: 100;">
+    <div class="container-fluid">
+
+        <img src="../img/codoacodo.png" alt="logo codo a codo" width="10%">
+        <!--
+        <a aria-current="page" href="https://agenciadeaprendizaje.bue.edu.ar/codo-a-codo/" target="_blank"> <img src="./img/codoacodo.png" alt="logo codo a codo" width="50%"> </a>
+    -->
+      <a class="navbar-brand" id="LetraBlanca" href="#" >Conf Bs As</a>
+
+
+      <button class="navbar-toggler bg- " id="LetraBlanca" type="button"  data-bs-toggle="collapse" 
+      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+      aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">  <h2><b></b>↓↓↓</b></h2> </span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" id="BlancoBoton">La conferencia</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" id="BlancoBoton">Los Oradores</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" id="BlancoBoton">El lugar y la fecha</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#ancla-1" id="BlancoBoton">Conviértete en orador</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" id="VerdeBoton">Comprar tickets</a>
+
+        </ul>
+
+      </div>
+    </div>
+</nav>
+
+<!--fin de barra superior.-->
+
+
+
+
+
+<!--caja central-->
+//caja central
+<div style="margin: 10%">
+
+        <div id="Areadetikets">
+                <div id="bordeAzulCuadrado" style="text-align: center;">
+                    <h3><b>Estudiante</b></h3>
+                    <h5>Tiene un descuento</h5>
+                    <h3><b>80%</b></h3>
+                    <h6>* Presentar documentación</h6>
+
+                </div>
+
+                <div id="bordeVerdeCuadrado" style="text-align: center;">
+                    <h3><b>Trainee</b></h3>
+                    <h5>Tiene un descuento</h5>
+                    <h3><b>50%</b></h3>
+                    <h6>* Presentar documentación</h6>
+                </div>
+
+                <div id="bordeNaranjaCuadrado" style="text-align: center;">
+                    <h3><b>Junior</b></h3>
+                    <h5>Tiene un descuento</h5>
+                    <h3><b>15%</b></h3>
+                    <h6>* Presentar documentación</h6>
+                </div>
+
+        </div>
+
+        <div class="container text-center" margin-top="10"! important>
+            <br>
+            <h6 id="ancla-1">VENTA</h6>
+            <h2>VALOR DE TICKET $200</h2>
+        </div>
+
+
+
+
+            <!--carga de datos de compra de tikets-->
+            <!-- <form action=""> -->
+                <div id="formularioventa">
+                    <div id="formulario" >
+                        <input type="text" class="form-control" placeholder="Nombre" aria-label="First name" id="imputNombre">
+                        <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name" id="imputApellido">
+                    </div>
+
+                    <!--email-->
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label"></label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo" id="imputCorreo">
+                    </div>
+                    
+                    <div id="formulario" >
+                            <DIV style="width: 50%;">
+                                <h5>Cantidad</h5>
+                                <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example" id="cantidadTiket">
+                                    <option value="1">01</option>
+                                    <option value="2">02</option>
+                                    <option value="3">03</option>
+                                    <option value="4">04</option>
+                                    <option value="5">05</option>
+                                    <option value="6">06</option>
+                                    <option value="7">07</option>
+                                    <option value="8">08</option>
+                                    <option value="9">09</option>
+                                    <option value="10">10</option>
+                                </select>
+                            </DIV>
+                            <div style="width: 50%;">
+                                <h5>Categoria</h5>
+                                <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example" id="tipoTiket">
+                                    <option selected>Elija tipo</option>
+                                    <option value="1">Estudiante</option>
+                                    <option value="2">Trainee</option>
+                                    <option value="3">Junior</option>
+                                </select>
+                            </div>
+                    </div>
+                    <div style="padding: 10px;">
+                        <input type="submit" value="Enviar todo">
+                        <button onclick="clicenvio()" class="btn btn-success align-content-xxl-center"  id="BotonVerde" type="submit">Enviar</button>
+                    </div>       
+
+                </div>
+               <!-- </form>  -->
+
+            
+
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+        <script src="./IndexTickets.JS"></script>
+        </body>
+
+
+
+</div>
+
+
+
+</html>
+
+<div class="text-center" style="padding: 0px; margin: 0px;" >
+    <div id="PieDePagina">
+
+        <a class="nav-link active" aria-current="page" href="#" id="BlancoBoton">Preguntas Frecuentes</a>
+        <a class="nav-link" href="#" id="BlancoBoton">Contactanos</a>
+        <a class="nav-link" href="#" id="BlancoBoton">Prensa</a>
+        <a class="nav-link" href="#" id="BlancoBoton">Conferencias</a>
+        <a class="nav-link" href="#" id="BlancoBoton">Términos y condiciones</a>
+        <a class="nav-link" href="#" id="BlancoBoton">Privacidad</a>
+        <a class="nav-link" href="#" id="BlancoBoton">Estudiantes</a>
+    
+    </div>
+</div>
+  
